@@ -1,0 +1,42 @@
+// Colores principales
+$primary:        #185FA5;
+$primary-light:  #E6F1FB;
+$success:        #1D9E75;
+$success-light:  #EAF3DE;
+$warning:        #BA7517;
+$warning-light:  #FAEEDA;
+$danger:         #D85A30;
+$danger-light:   #FCEBEB;
+
+// Fondos
+$bg-page:        #F4F3EF;
+$bg-card:        #FFFFFF;
+$bg-sidebar:     #1C1C1A;
+$bg-muted:       #EFEFEC;
+
+// Texto
+$text-primary:   #1C1C1A;
+$text-secondary: #6B6B68;
+$text-muted:     #9B9B97;
+$text-inverse:   #FFFFFF;
+
+// Bordes
+$border-color:   rgba(0, 0, 0, 0.08);
+$border-strong:  rgba(0, 0, 0, 0.15);
+
+// Tipografía
+$font-sans:      'DM Sans', -apple-system, sans-serif;
+$font-mono:      'Space Mono', 'Courier New', monospace;
+
+// Border radius
+$radius-sm:   6px;
+$radius-md:   10px;
+$radius-lg:   14px;
+$radius-xl:   20px;
+
+// Espaciado
+$sidebar-width: 220px;
+
+// Breakpoints
+$mobile: 768px;
+$tablet: 1024px;
