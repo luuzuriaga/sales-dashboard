@@ -11,7 +11,8 @@ const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:8080';
 
 // Configuración de CORS
 app.use(cors({
-  origin: FRONTEND_URL
+  origin: process.env.FRONTEND_URL,
+  credentials: true
 }));
 
 app.use(express.json());
