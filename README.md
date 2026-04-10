@@ -66,6 +66,13 @@ npm run dev
 ```
 *The API will be available at `http://localhost:3000`*
 
+#### Configuración de variables de entorno:
+1. Copia el archivo de ejemplo:
+   ```bash
+   cp .env.example .env
+   ```
+2. Abre `.env` y configura tu `SECRET_KEY` y otras variables si es necesario.
+
 ### 4. Frontend Setup
 Open a new terminal in the project root:
 ```bash
@@ -73,6 +80,13 @@ npm install
 npm run serve
 ```
 *The Dashboard will be served at `http://localhost:8080`*
+
+#### Configuración de variables de entorno:
+1. Crea/copia el archivo `.env` en la raíz del proyecto:
+   ```bash
+   cp .env.example .env
+   ```
+2. Asegúrate de que `VUE_APP_API_URL` apunte a la dirección de tu backend (por defecto `http://localhost:3000`).
 
 ---
 

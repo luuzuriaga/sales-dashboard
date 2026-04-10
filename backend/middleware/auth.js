@@ -1,5 +1,6 @@
+require('dotenv').config();
 const jwt = require('jsonwebtoken');
-const SECRET_KEY = 'tu_clave_secreta_super_segura'; // En producción usar variables de entorno
+const SECRET_KEY = process.env.SECRET_KEY || 'clave_temporal';
 
 const authMiddleware = (req, res, next) => {
   const authHeader = req.headers.authorization;
