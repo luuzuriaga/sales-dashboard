@@ -110,6 +110,18 @@ npm run serve
 
 ---
 
+## 🔐 Credenciales de Prueba
+
+Puedes usar las siguientes cuentas para explorar las diferentes funcionalidades:
+
+| Rol | Email | Password |
+| :--- | :--- | :--- |
+| **Gerente** | `admin@test.com` | `password123` |
+| **Vendedor** | `andrea@test.com` | `password123` |
+| **Vendedor** | `carlos@test.com` | `password123` |
+
+---
+
 ## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
