@@ -3,7 +3,7 @@
 > **Advanced Multi-Year Enterprise Sales Intelligence.** 
 > A sleek, high-performance dashboard designed to move from manual spreadsheets to real-time, role-aware data visualization.
 
-![SalesDash Banner](./src/assets/banner.png)
+![SalesDash Banner](./frontend/src/assets/banner.png)
 
 ## 🌟 Overview
 
@@ -76,13 +76,14 @@ npm run dev
 ### 4. Frontend Setup
 Open a new terminal in the project root:
 ```bash
+cd frontend
 npm install
 npm run serve
 ```
 *The Dashboard will be served at `http://localhost:8080`*
 
 #### Configuración de variables de entorno:
-1. Crea/copia el archivo `.env` en la raíz del proyecto:
+1. Crea/copia el archivo `.env` en la carpeta `frontend/`:
    ```bash
    cp .env.example .env
    ```
@@ -94,13 +95,16 @@ npm run serve
 
 ```text
 ├── backend/            # Express.js API & Authentication logic
-├── public/             # Static assets (Favicons, index.html)
-├── src/
-│   ├── assets/         # Design system & Branding (Logos, Banner)
-│   ├── components/     # Reusable Vue components (Charts, KPIs)
-│   ├── store/          # Vuex Global State (Filtering, User Auth)
-│   ├── views/          # Principal views (Manager vs Seller)
-│   └── styles/         # SASS variables & Global styles
+├── frontend/           # Vue.js Frontend
+│   ├── public/         # Static assets (Favicons, index.html)
+│   ├── src/
+│   │   ├── assets/     # Design system & Branding (Logos, Banner)
+│   │   ├── components/ # Reusable Vue components (Charts, KPIs)
+│   │   ├── store/      # Vuex Global State (Filtering, User Auth)
+│   │   ├── views/      # Principal views (Manager vs Seller)
+│   │   └── styles/     # SASS variables & Global styles
+│   ├── .env            # Frontend environment variables
+│   └── vue.config.js   # Vue configuration
 └── vercel.json         # Deployment configuration
 ```
 
